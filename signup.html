@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="signupStyle.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-
-	<title>XYZ Travels</title>
+	<title>Signup</title>
 </head>
-<body class="htmlBody">
+<body>
 
 	<!-- NAvigation bar with a menu tab in small screen -->
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -32,24 +31,28 @@
 
 			<ul class="navbar-nav">
 				<li class="navbar-item"><a class="nav-link" href="login.html">Login</a></li>
-				<li class="navbar-item"><a class="nav-link btn btn-outline-light" href="signup.html">Signup</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<p id ="para" class="display-4">Plan a vacation that you will never forget.</p>
 
-	<!-- Signup Button for the users who are visiting the website for the first time -->
-	<div id="buttons">
-		<div id="signUp">
-			<a href="signup.html" class="btn btn-outline-light px-5 py-3">Sign Up</a>
-		</div>
 
-		<div id="logIn">
-			<a href="login.html" class="btn btn-outline-light px-5 py-3">Log In</a>
-		</div>
+	<div class="login-page">
+		<form class="form">
+			<input type="text" name="username" placeholder="Username"><br>
+			<input type="Password" name="password" placeholder="Password"><br>
+			<input type="Password" name="password" placeholder="Re-Enter Password"><br>
+			<input type="text" name="" placeholder="Full Name"><br>
+			<input type="text" name="" placeholder="Address Line" placeholder="DOB"><br>
+			<!-- Birthdate :<input type="date" name=""><br>
+			<div>Gender :<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</div> -->
+			<a href="#" class="btn btn-outline-light d-block">Sign Up</a>
+			<p class="message">Already registered? <a href="login.html">Log In</a></p>
+		</form>
 	</div>
-
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-
-	<title>XYZ Travels</title>
+	<title>Login</title>
 </head>
-<body class="htmlBody">
+<body>
 
 	<!-- NAvigation bar with a menu tab in small screen -->
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -31,25 +30,22 @@
 			</div>
 
 			<ul class="navbar-nav">
-				<li class="navbar-item"><a class="nav-link" href="login.html">Login</a></li>
 				<li class="navbar-item"><a class="nav-link btn btn-outline-light" href="signup.html">Signup</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<p id ="para" class="display-4">Plan a vacation that you will never forget.</p>
 
-	<!-- Signup Button for the users who are visiting the website for the first time -->
-	<div id="buttons">
-		<div id="signUp">
-			<a href="signup.html" class="btn btn-outline-light px-5 py-3">Sign Up</a>
-		</div>
-
-		<div id="logIn">
-			<a href="login.html" class="btn btn-outline-light px-5 py-3">Log In</a>
-		</div>
+	<div class="login-page">
+	  <div class="form">
+	    <form class="login-form">
+	      <input type="text" placeholder="Username"/>
+	      <input type="password" placeholder="Password"/>
+			<a href="#" class="btn btn-outline-light d-block">Log In</a>
+	      <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
+	    </form>
+	  </div>
 	</div>
-
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
