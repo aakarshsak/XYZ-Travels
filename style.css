@@ -1,0 +1,40 @@
+/*
+* @Author: Aakarsh
+* @Date:   2019-03-06 13:53:46
+* @Last Modified by:   Aakarsh
+* @Last Modified time: 2019-03-06 15:22:30
+*/
+
+
+/*body {
+  	background-image: url("xyz3.jpg");
+	background-size: cover;
+}*/
+#para {
+	position:relative;
+	top: 200px;
+	text-align: center;
+	color:#39a1a2;
+}
+#buttons {
+	position: relative;
+	top:320px;
+	display: flex;
+	justify-content: center;
+}
+.container .btn-outline-light {
+	background-color: #343a40;
+	color: white;
+}
+.container .btn-outline-light:hover {
+	border-color: #343a40;
+	color: #343a40;
+}
+.btn-outline-light {
+	background-color: #343a40;
+	color: white;
+}
+.btn-outline-light:hover {
+	border-color: #343a40;
+	color: #343a40;
+}
